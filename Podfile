@@ -9,11 +9,9 @@ target 'Ominext-MVVM' do
   pod 'Alamofire', '4.8.0'
   pod 'RxSwift', '~>5.0.0'
   pod 'RxSwiftExt', '5.0.0'
-  pod 'SwiftyAttributes', '5.1.1'
   pod 'SVGKit', '2.1.0'
   pod 'CocoaLumberjack/Swift'
   pod 'Swinject', '2.6.1'
-  pod 'Closures', '0.6'
   pod 'RealmSwift'
   pod 'Firebase/Database'
   target 'Ominext-MVVMTests' do

@@ -1,6 +1,5 @@
 PODS:
   - Alamofire (4.8.0)
-  - Closures (0.6)
   - CocoaLumberjack (3.5.3):
     - CocoaLumberjack/Core (= 3.5.3)
   - CocoaLumberjack/Core (3.5.3)
@@ -47,12 +46,10 @@ PODS:
   - SVGKit (2.1.0):
     - CocoaLumberjack (~> 3.0)
   - SVProgressHUD (2.2.5)
-  - SwiftyAttributes (5.1.1)
   - Swinject (2.6.1)
 
 DEPENDENCIES:
   - Alamofire (= 4.8.0)
-  - Closures (= 0.6)
   - CocoaLumberjack/Swift
   - Firebase/Database
   - IQKeyboardManager (= 6.2.0)
@@ -62,13 +59,11 @@ DEPENDENCIES:
   - RxSwiftExt (= 5.0.0)
   - SVGKit (= 2.1.0)
   - SVProgressHUD (= 2.2.5)
-  - SwiftyAttributes (= 5.1.1)
   - Swinject (= 2.6.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
-    - Closures
     - CocoaLumberjack
     - Firebase
     - FirebaseAuthInterop
@@ -86,12 +81,10 @@ SPEC REPOS:
     - RxSwiftExt
     - SVGKit
     - SVProgressHUD
-    - SwiftyAttributes
     - Swinject
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
-  Closures: 7477e86502e33d7ae435b8c60ce219390e06c476
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
   Firebase: 5965bac23e7fcb5fa6d926ed429c9ecef8a2014e
   FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
@@ -109,9 +102,8 @@ SPEC CHECKSUMS:
   RxSwiftExt: 4564187392cc53823ef241fa4a11647861567026
   SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
   Swinject: b624462f47b635a64f89a60a247baa5fccec14e1
 
-PODFILE CHECKSUM: 9335dab3cc7cb39c746056b15b99b873b87c2319
+PODFILE CHECKSUM: 8c40e1b6042bac096d33bdc4c2c01f574d4297ae
 
 COCOAPODS: 1.7.1

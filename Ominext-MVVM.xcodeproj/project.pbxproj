@@ -62,12 +62,12 @@
 		2AF76EBF22B0B4B4007E5ADA /* AppInitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EBE22B0B4B4007E5ADA /* AppInitManager.swift */; };
 		2AF76EC322B0B66D007E5ADA /* FIRDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EC222B0B66D007E5ADA /* FIRDatabase.swift */; };
 		2AF76ECA22B0EBE2007E5ADA /* LoginRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EC922B0EBE2007E5ADA /* LoginRepos.swift */; };
-		2AF76ECC22B0EBF3007E5ADA /* LoginReposImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ECB22B0EBF3007E5ADA /* LoginReposImp.swift */; };
 		2AF76ECE22B0EC44007E5ADA /* LoginUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ECD22B0EC44007E5ADA /* LoginUC.swift */; };
 		2AF76ED122B0ECC4007E5ADA /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ED022B0ECC4007E5ADA /* DIContainer.swift */; };
 		2AF76ED322B0EEF4007E5ADA /* GetListDrugUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ED222B0EEF4007E5ADA /* GetListDrugUC.swift */; };
 		2AF76ED522B0EF05007E5ADA /* ListDrugRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ED422B0EF05007E5ADA /* ListDrugRepos.swift */; };
-		2AF76ED722B0EF13007E5ADA /* ListDrugReposImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ED622B0EF13007E5ADA /* ListDrugReposImp.swift */; };
+		2AF76EDE22B0FB1A007E5ADA /* ListDrugReposImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EDC22B0FB1A007E5ADA /* ListDrugReposImp.swift */; };
+		2AF76EDF22B0FB1A007E5ADA /* LoginReposImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EDD22B0FB1A007E5ADA /* LoginReposImp.swift */; };
 		C1658B9BBD5408F8E62CD55F /* Pods_Ominext_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4919138D0C7BFF4A42A35CB6 /* Pods_Ominext_MVVMTests.framework */; };
 		F85472C6EEF60A3D6B82C2AD /* Pods_Ominext_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85549E964A71D891E48ACAF /* Pods_Ominext_MVVM.framework */; };
 /* End PBXBuildFile section */
@@ -149,12 +149,12 @@
 		2AF76EBE22B0B4B4007E5ADA /* AppInitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInitManager.swift; sourceTree = "<group>"; };
 		2AF76EC222B0B66D007E5ADA /* FIRDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDatabase.swift; sourceTree = "<group>"; };
 		2AF76EC922B0EBE2007E5ADA /* LoginRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepos.swift; sourceTree = "<group>"; };
-		2AF76ECB22B0EBF3007E5ADA /* LoginReposImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReposImp.swift; sourceTree = "<group>"; };
 		2AF76ECD22B0EC44007E5ADA /* LoginUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUC.swift; sourceTree = "<group>"; };
 		2AF76ED022B0ECC4007E5ADA /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		2AF76ED222B0EEF4007E5ADA /* GetListDrugUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetListDrugUC.swift; sourceTree = "<group>"; };
 		2AF76ED422B0EF05007E5ADA /* ListDrugRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDrugRepos.swift; sourceTree = "<group>"; };
-		2AF76ED622B0EF13007E5ADA /* ListDrugReposImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDrugReposImp.swift; sourceTree = "<group>"; };
+		2AF76EDC22B0FB1A007E5ADA /* ListDrugReposImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDrugReposImp.swift; sourceTree = "<group>"; };
+		2AF76EDD22B0FB1A007E5ADA /* LoginReposImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginReposImp.swift; sourceTree = "<group>"; };
 		3F5B098EEF07B6A6F0C7F9FE /* Pods-Ominext-MVVMTests.devdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVMTests.devdebug.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests.devdebug.xcconfig"; sourceTree = "<group>"; };
 		4919138D0C7BFF4A42A35CB6 /* Pods_Ominext_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ominext_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		492A91CF1E302CF60A080237 /* Pods-Ominext-MVVM.devrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVM.devrelease.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM.devrelease.xcconfig"; sourceTree = "<group>"; };
@@ -221,7 +221,6 @@
 				2A1237BD22A7C2C2001BFDC8 /* Config */,
 				2A1236F622A7BE35001BFDC8 /* Common */,
 				2A12371E22A7BE4B001BFDC8 /* Services */,
-				2A12378D22A7BE69001BFDC8 /* CustomViews */,
 				2AF76EC522B0EB87007E5ADA /* Domain */,
 				2AF76ED822B0F323007E5ADA /* Data */,
 				2A1237DB22A7CF65001BFDC8 /* MVVM */,
@@ -397,6 +396,7 @@
 		2A1237DB22A7CF65001BFDC8 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				2A12378D22A7BE69001BFDC8 /* CustomViews */,
 				2A72E68822AFB23D007C4761 /* Entity */,
 				2A1237DE22A7CF8B001BFDC8 /* Model */,
 				2A1237DC22A7CF7C001BFDC8 /* Scenes */,
@@ -609,19 +609,18 @@
 		2AF76ED822B0F323007E5ADA /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				2AF76ED922B0F34B007E5ADA /* Repository */,
+				2AF76EDB22B0FB1A007E5ADA /* Repository */,
 			);
 			path = Data;
 			sourceTree = "<group>";
 		};
-		2AF76ED922B0F34B007E5ADA /* Repository */ = {
+		2AF76EDB22B0FB1A007E5ADA /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				2AF76ECB22B0EBF3007E5ADA /* LoginReposImp.swift */,
-				2AF76ED622B0EF13007E5ADA /* ListDrugReposImp.swift */,
+				2AF76EDC22B0FB1A007E5ADA /* ListDrugReposImp.swift */,
+				2AF76EDD22B0FB1A007E5ADA /* LoginReposImp.swift */,
 			);
-			name = Repository;
-			path = "Repositỏy";
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		457188AF1FA523F0D6371B84 /* Pods */ = {
@@ -838,7 +837,6 @@
 				2ACA13EF22AF8D730052586E /* User.swift in Sources */,
 				2AF76ECE22B0EC44007E5ADA /* LoginUC.swift in Sources */,
 				2A12371222A7BE35001BFDC8 /* FontExtensions.swift in Sources */,
-				2AF76ECC22B0EBF3007E5ADA /* LoginReposImp.swift in Sources */,
 				2A1237E022A7CF98001BFDC8 /* BaseVC.swift in Sources */,
 				2A1237B122A7BE69001BFDC8 /* OMLabel.swift in Sources */,
 				2ACA13B922AE477B0052586E /* LoginViewModel.swift in Sources */,
@@ -851,12 +849,13 @@
 				2A12371422A7BE35001BFDC8 /* StringExtensions.swift in Sources */,
 				2A12371322A7BE35001BFDC8 /* NSObjectExtensions.swift in Sources */,
 				2A72E68E22AFB43B007C4761 /* Result+Limit.swift in Sources */,
-				2AF76ED722B0EF13007E5ADA /* ListDrugReposImp.swift in Sources */,
 				2AF76EC322B0B66D007E5ADA /* FIRDatabase.swift in Sources */,
 				2A12371A22A7BE35001BFDC8 /* OrientationManager.swift in Sources */,
+				2AF76EDE22B0FB1A007E5ADA /* ListDrugReposImp.swift in Sources */,
 				2ACA13F522AF91200052586E /* ObservableExtensions.swift in Sources */,
 				2AF76ED122B0ECC4007E5ADA /* DIContainer.swift in Sources */,
 				2A72E68722AFB0F0007C4761 /* RealmDao.swift in Sources */,
+				2AF76EDF22B0FB1A007E5ADA /* LoginReposImp.swift in Sources */,
 				2A1237E222A7D02E001BFDC8 /* UIColorExtensions.swift in Sources */,
 				2AF76EB022B0A647007E5ADA /* PHAsset+Rx.swift in Sources */,
 				2A12371B22A7BE35001BFDC8 /* DateUtils.swift in Sources */,
