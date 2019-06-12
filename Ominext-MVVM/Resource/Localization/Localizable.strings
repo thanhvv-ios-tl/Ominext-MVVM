@@ -1,0 +1,20 @@
+//
+//  Localizable.strings
+//
+//  Copyright © 2019 Ominext. All rights reserved.
+//
+
+"Common.Done" = "Done";
+"Common.Cancel" = "Cancel";
+"Common.Save" = "Save";
+"Common.Created" = "Created";
+"Common.OK" = "OK";
+"Common.Close" = "Close";
+"Common.Apply" = "Apply";
+"Common.Online" = "Online";
+"Common.Offline" = "Offline";
+"Common.Message.TokenExpired" = "Token Expired, Please relogin";
+"Common.Message.InternalServerError" = "Internal Server Error";
+
+"LoginVC.Message.UsernamePasswordIsRequire" = "Username and Password are required.";
+"LoginVC.Button.Login" = "LOGIN";

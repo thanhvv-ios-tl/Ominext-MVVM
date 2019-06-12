@@ -1,0 +1,8 @@
+//
+//  Dev.xcconfig
+//  Ominext-MVVM
+//
+//  Copyright © 2019 Ominext. All rights reserved.
+//
+
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "Staging"

@@ -1,0 +1,117 @@
+PODS:
+  - Alamofire (4.8.0)
+  - Closures (0.6)
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - Firebase/CoreOnly (6.2.0):
+    - FirebaseCore (= 6.0.2)
+  - Firebase/Database (6.2.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.0.0)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.0.2):
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Logger (~> 6.0)
+  - FirebaseDatabase (6.0.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.18)
+  - GoogleUtilities/Environment (6.2.0)
+  - GoogleUtilities/Logger (6.2.0):
+    - GoogleUtilities/Environment
+  - IQKeyboardManager (6.2.0)
+  - leveldb-library (1.20)
+  - Nimble (8.0.1)
+  - Realm (3.16.1):
+    - Realm/Headers (= 3.16.1)
+  - Realm/Headers (3.16.1)
+  - RealmSwift (3.16.1):
+    - Realm (= 3.16.1)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - RxSwiftExt (5.0.0):
+    - RxSwiftExt/Core (= 5.0.0)
+    - RxSwiftExt/RxCocoa (= 5.0.0)
+  - RxSwiftExt/Core (5.0.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - SVGKit (2.1.0):
+    - CocoaLumberjack (~> 3.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyAttributes (5.1.1)
+  - Swinject (2.6.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.0)
+  - Closures (= 0.6)
+  - CocoaLumberjack/Swift
+  - Firebase/Database
+  - IQKeyboardManager (= 6.2.0)
+  - Nimble (= 8.0.1)
+  - RealmSwift
+  - RxSwift (~> 5.0.0)
+  - RxSwiftExt (= 5.0.0)
+  - SVGKit (= 2.1.0)
+  - SVProgressHUD (= 2.2.5)
+  - SwiftyAttributes (= 5.1.1)
+  - Swinject (= 2.6.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Closures
+    - CocoaLumberjack
+    - Firebase
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - GoogleUtilities
+    - IQKeyboardManager
+    - leveldb-library
+    - Nimble
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SVGKit
+    - SVProgressHUD
+    - SwiftyAttributes
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Closures: 7477e86502e33d7ae435b8c60ce219390e06c476
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  Firebase: 5965bac23e7fcb5fa6d926ed429c9ecef8a2014e
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: b0f0262acebfa540e5f97b3832dbb13186980822
+  FirebaseDatabase: f48e067716864be2b855cf716b927ef375d6cfa0
+  GoogleUtilities: 996e0db07153674fd1b54b220fda3a3dc3547cba
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Realm: 601cacc51d8be3b17a377ef787be0f6ee0e76cf1
+  RealmSwift: 486f2e09d5a8ccff63ed66e48d0846b111deb5e5
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  RxSwiftExt: 4564187392cc53823ef241fa4a11647861567026
+  SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
+  Swinject: b624462f47b635a64f89a60a247baa5fccec14e1
+
+PODFILE CHECKSUM: 9335dab3cc7cb39c746056b15b99b873b87c2319
+
+COCOAPODS: 1.7.1

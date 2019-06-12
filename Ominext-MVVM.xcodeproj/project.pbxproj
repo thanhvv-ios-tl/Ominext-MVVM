@@ -3,16 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2A1236D722A7BD48001BFDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236D622A7BD48001BFDC8 /* AppDelegate.swift */; };
-		2A1236D922A7BD48001BFDC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236D822A7BD48001BFDC8 /* ViewController.swift */; };
-		2A1236DC22A7BD48001BFDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1236DA22A7BD48001BFDC8 /* Main.storyboard */; };
 		2A1236DE22A7BD49001BFDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1236DD22A7BD49001BFDC8 /* Assets.xcassets */; };
 		2A1236E122A7BD49001BFDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1236DF22A7BD49001BFDC8 /* LaunchScreen.storyboard */; };
-		2A1236EC22A7BD49001BFDC8 /* Ominext_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236EB22A7BD49001BFDC8 /* Ominext_MVVMTests.swift */; };
+		2A12370E22A7BE35001BFDC8 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236F822A7BE35001BFDC8 /* AppColor.swift */; };
+		2A12370F22A7BE35001BFDC8 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236FA22A7BE35001BFDC8 /* ErrorHandler.swift */; };
+		2A12371022A7BE35001BFDC8 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236FC22A7BE35001BFDC8 /* ArrayExtensions.swift */; };
+		2A12371122A7BE35001BFDC8 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236FD22A7BE35001BFDC8 /* DateExtensions.swift */; };
+		2A12371222A7BE35001BFDC8 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236FE22A7BE35001BFDC8 /* FontExtensions.swift */; };
+		2A12371322A7BE35001BFDC8 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1236FF22A7BE35001BFDC8 /* NSObjectExtensions.swift */; };
+		2A12371422A7BE35001BFDC8 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12370022A7BE35001BFDC8 /* StringExtensions.swift */; };
+		2A12371522A7BE35001BFDC8 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12370122A7BE35001BFDC8 /* UIImageExtensions.swift */; };
+		2A12371622A7BE35001BFDC8 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12370222A7BE35001BFDC8 /* UIViewExtensions.swift */; };
+		2A12371722A7BE35001BFDC8 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12370322A7BE35001BFDC8 /* URLExtensions.swift */; };
+		2A12371922A7BE35001BFDC8 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12370722A7BE35001BFDC8 /* Notifications.swift */; };
+		2A12371A22A7BE35001BFDC8 /* OrientationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12370922A7BE35001BFDC8 /* OrientationManager.swift */; };
+		2A12371B22A7BE35001BFDC8 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12370B22A7BE35001BFDC8 /* DateUtils.swift */; };
+		2A12376222A7BE4B001BFDC8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12372822A7BE4B001BFDC8 /* API.swift */; };
+		2A12376322A7BE4B001BFDC8 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12372922A7BE4B001BFDC8 /* APIError.swift */; };
+		2A12378C22A7BE4B001BFDC8 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12375B22A7BE4B001BFDC8 /* Session.swift */; };
+		2A1237AB22A7BE69001BFDC8 /* OMSVGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12379122A7BE69001BFDC8 /* OMSVGButton.swift */; };
+		2A1237AC22A7BE69001BFDC8 /* OMSVGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12379222A7BE69001BFDC8 /* OMSVGImageView.swift */; };
+		2A1237AD22A7BE69001BFDC8 /* OMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12379322A7BE69001BFDC8 /* OMButton.swift */; };
+		2A1237B122A7BE69001BFDC8 /* OMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12379822A7BE69001BFDC8 /* OMLabel.swift */; };
+		2A1237E022A7CF98001BFDC8 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1237DF22A7CF98001BFDC8 /* BaseVC.swift */; };
+		2A1237E222A7D02E001BFDC8 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1237E122A7D02E001BFDC8 /* UIColorExtensions.swift */; };
+		2A12381E22A7D0AF001BFDC8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A1237E822A7D0AE001BFDC8 /* Localizable.strings */; };
+		2A12384E22A7D145001BFDC8 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A12384D22A7D145001BFDC8 /* Const.swift */; };
+		2A36711122B088BA00FF5F73 /* DrugCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36710F22B088BA00FF5F73 /* DrugCell.swift */; };
+		2A36711222B088BA00FF5F73 /* DrugCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A36711022B088BA00FF5F73 /* DrugCell.xib */; };
+		2A72E67A22AFA99C007C4761 /* GetListDrugAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E67922AFA99C007C4761 /* GetListDrugAPI.swift */; };
+		2A72E67C22AFA9B2007C4761 /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E67B22AFA9B2007C4761 /* Drug.swift */; };
+		2A72E67F22AFAB38007C4761 /* DrugsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E67E22AFAB38007C4761 /* DrugsVC.swift */; };
+		2A72E68122AFAB50007C4761 /* DrugListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E68022AFAB50007C4761 /* DrugListViewModel.swift */; };
+		2A72E68322AFAB59007C4761 /* DrugsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A72E68222AFAB59007C4761 /* DrugsVC.xib */; };
+		2A72E68522AFB0CE007C4761 /* DrugsDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E68422AFB0CE007C4761 /* DrugsDao.swift */; };
+		2A72E68722AFB0F0007C4761 /* RealmDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E68622AFB0F0007C4761 /* RealmDao.swift */; };
+		2A72E68A22AFB249007C4761 /* RlmDrugEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E68922AFB249007C4761 /* RlmDrugEntity.swift */; };
+		2A72E68C22AFB290007C4761 /* RealmExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E68B22AFB290007C4761 /* RealmExtensions.swift */; };
+		2A72E68E22AFB43B007C4761 /* Result+Limit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72E68D22AFB43B007C4761 /* Result+Limit.swift */; };
+		2ACA13B922AE477B0052586E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA13B822AE477B0052586E /* LoginViewModel.swift */; };
+		2ACA13BB22AE47840052586E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA13BA22AE47840052586E /* LoginVC.swift */; };
+		2ACA13ED22AF8C210052586E /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA13EC22AF8C210052586E /* LoginVC.xib */; };
+		2ACA13EF22AF8D730052586E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA13EE22AF8D730052586E /* User.swift */; };
+		2ACA13F122AF8E310052586E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA13F022AF8E310052586E /* BaseViewModel.swift */; };
+		2ACA13F322AF8EB20052586E /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA13F222AF8EB20052586E /* LoginAPI.swift */; };
+		2ACA13F522AF91200052586E /* ObservableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA13F422AF91200052586E /* ObservableExtensions.swift */; };
+		2ACA13F722AFA0B00052586E /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA13F622AFA0B00052586E /* LoginViewModelTests.swift */; };
+		2AF76EAC22B09486007E5ADA /* BaseNaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EAB22B09486007E5ADA /* BaseNaviVC.swift */; };
+		2AF76EAE22B09864007E5ADA /* DrugListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EAD22B09864007E5ADA /* DrugListViewModelTests.swift */; };
+		2AF76EB022B0A647007E5ADA /* PHAsset+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EAF22B0A647007E5ADA /* PHAsset+Rx.swift */; };
+		2AF76EB522B0A7A4007E5ADA /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EB222B0A7A4007E5ADA /* AppUtils.swift */; };
+		2AF76EBC22B0B411007E5ADA /* QueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EBB22B0B411007E5ADA /* QueueManager.swift */; };
+		2AF76EBF22B0B4B4007E5ADA /* AppInitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EBE22B0B4B4007E5ADA /* AppInitManager.swift */; };
+		2AF76EC322B0B66D007E5ADA /* FIRDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EC222B0B66D007E5ADA /* FIRDatabase.swift */; };
+		2AF76ECA22B0EBE2007E5ADA /* LoginRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76EC922B0EBE2007E5ADA /* LoginRepos.swift */; };
+		2AF76ECC22B0EBF3007E5ADA /* LoginReposImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ECB22B0EBF3007E5ADA /* LoginReposImp.swift */; };
+		2AF76ECE22B0EC44007E5ADA /* LoginUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ECD22B0EC44007E5ADA /* LoginUC.swift */; };
+		2AF76ED122B0ECC4007E5ADA /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ED022B0ECC4007E5ADA /* DIContainer.swift */; };
+		2AF76ED322B0EEF4007E5ADA /* GetListDrugUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ED222B0EEF4007E5ADA /* GetListDrugUC.swift */; };
+		2AF76ED522B0EF05007E5ADA /* ListDrugRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ED422B0EF05007E5ADA /* ListDrugRepos.swift */; };
+		2AF76ED722B0EF13007E5ADA /* ListDrugReposImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF76ED622B0EF13007E5ADA /* ListDrugReposImp.swift */; };
+		C1658B9BBD5408F8E62CD55F /* Pods_Ominext_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4919138D0C7BFF4A42A35CB6 /* Pods_Ominext_MVVMTests.framework */; };
+		F85472C6EEF60A3D6B82C2AD /* Pods_Ominext_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85549E964A71D891E48ACAF /* Pods_Ominext_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +83,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08904739C74383F552A49BED /* Pods-Ominext-MVVMTests.devrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVMTests.devrelease.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests.devrelease.xcconfig"; sourceTree = "<group>"; };
+		0DE5262430E4696D82B1CE4F /* Pods-Ominext-MVVM.product.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVM.product.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM.product.xcconfig"; sourceTree = "<group>"; };
+		118A384DF12B09FC47BE7684 /* Pods-Ominext-MVVMTests.stagingrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVMTests.stagingrelease.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests.stagingrelease.xcconfig"; sourceTree = "<group>"; };
+		1395CF722EED72E1EE5AEB1A /* Pods-Ominext-MVVM.stagingrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVM.stagingrelease.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM.stagingrelease.xcconfig"; sourceTree = "<group>"; };
 		2A1236D322A7BD48001BFDC8 /* Ominext-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ominext-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1236D622A7BD48001BFDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A1236D822A7BD48001BFDC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2A1236DB22A7BD48001BFDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A1236DD22A7BD49001BFDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A1236E022A7BD49001BFDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A1236E222A7BD49001BFDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1236E722A7BD49001BFDC8 /* Ominext-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ominext-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A1236EB22A7BD49001BFDC8 /* Ominext_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ominext_MVVMTests.swift; sourceTree = "<group>"; };
 		2A1236ED22A7BD49001BFDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1236F822A7BE35001BFDC8 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		2A1236FA22A7BE35001BFDC8 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		2A1236FC22A7BE35001BFDC8 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		2A1236FD22A7BE35001BFDC8 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		2A1236FE22A7BE35001BFDC8 /* FontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		2A1236FF22A7BE35001BFDC8 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
+		2A12370022A7BE35001BFDC8 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		2A12370122A7BE35001BFDC8 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		2A12370222A7BE35001BFDC8 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		2A12370322A7BE35001BFDC8 /* URLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		2A12370722A7BE35001BFDC8 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		2A12370922A7BE35001BFDC8 /* OrientationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationManager.swift; sourceTree = "<group>"; };
+		2A12370B22A7BE35001BFDC8 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		2A12372822A7BE4B001BFDC8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2A12372922A7BE4B001BFDC8 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		2A12375B22A7BE4B001BFDC8 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		2A12379122A7BE69001BFDC8 /* OMSVGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMSVGButton.swift; sourceTree = "<group>"; };
+		2A12379222A7BE69001BFDC8 /* OMSVGImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMSVGImageView.swift; sourceTree = "<group>"; };
+		2A12379322A7BE69001BFDC8 /* OMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMButton.swift; sourceTree = "<group>"; };
+		2A12379822A7BE69001BFDC8 /* OMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMLabel.swift; sourceTree = "<group>"; };
+		2A1237BF22A7C2D8001BFDC8 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		2A1237C122A7C334001BFDC8 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		2A1237C222A7C334001BFDC8 /* Product.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Product.xcconfig; sourceTree = "<group>"; };
+		2A1237DF22A7CF98001BFDC8 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		2A1237E122A7D02E001BFDC8 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		2A1237E822A7D0AE001BFDC8 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2A12384D22A7D145001BFDC8 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		2A36710F22B088BA00FF5F73 /* DrugCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugCell.swift; sourceTree = "<group>"; };
+		2A36711022B088BA00FF5F73 /* DrugCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrugCell.xib; sourceTree = "<group>"; };
+		2A72E67922AFA99C007C4761 /* GetListDrugAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetListDrugAPI.swift; sourceTree = "<group>"; };
+		2A72E67B22AFA9B2007C4761 /* Drug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drug.swift; sourceTree = "<group>"; };
+		2A72E67E22AFAB38007C4761 /* DrugsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugsVC.swift; sourceTree = "<group>"; };
+		2A72E68022AFAB50007C4761 /* DrugListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugListViewModel.swift; sourceTree = "<group>"; };
+		2A72E68222AFAB59007C4761 /* DrugsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrugsVC.xib; sourceTree = "<group>"; };
+		2A72E68422AFB0CE007C4761 /* DrugsDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugsDao.swift; sourceTree = "<group>"; };
+		2A72E68622AFB0F0007C4761 /* RealmDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDao.swift; sourceTree = "<group>"; };
+		2A72E68922AFB249007C4761 /* RlmDrugEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RlmDrugEntity.swift; sourceTree = "<group>"; };
+		2A72E68B22AFB290007C4761 /* RealmExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmExtensions.swift; sourceTree = "<group>"; };
+		2A72E68D22AFB43B007C4761 /* Result+Limit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Limit.swift"; sourceTree = "<group>"; };
+		2ACA13B822AE477B0052586E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2ACA13BA22AE47840052586E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2ACA13EC22AF8C210052586E /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		2ACA13EE22AF8D730052586E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2ACA13F022AF8E310052586E /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		2ACA13F222AF8EB20052586E /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		2ACA13F422AF91200052586E /* ObservableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableExtensions.swift; sourceTree = "<group>"; };
+		2ACA13F622AFA0B00052586E /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		2AF76EAB22B09486007E5ADA /* BaseNaviVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNaviVC.swift; sourceTree = "<group>"; };
+		2AF76EAD22B09864007E5ADA /* DrugListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugListViewModelTests.swift; sourceTree = "<group>"; };
+		2AF76EAF22B0A647007E5ADA /* PHAsset+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHAsset+Rx.swift"; sourceTree = "<group>"; };
+		2AF76EB222B0A7A4007E5ADA /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		2AF76EBB22B0B411007E5ADA /* QueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueManager.swift; sourceTree = "<group>"; };
+		2AF76EBE22B0B4B4007E5ADA /* AppInitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInitManager.swift; sourceTree = "<group>"; };
+		2AF76EC222B0B66D007E5ADA /* FIRDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDatabase.swift; sourceTree = "<group>"; };
+		2AF76EC922B0EBE2007E5ADA /* LoginRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepos.swift; sourceTree = "<group>"; };
+		2AF76ECB22B0EBF3007E5ADA /* LoginReposImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReposImp.swift; sourceTree = "<group>"; };
+		2AF76ECD22B0EC44007E5ADA /* LoginUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUC.swift; sourceTree = "<group>"; };
+		2AF76ED022B0ECC4007E5ADA /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		2AF76ED222B0EEF4007E5ADA /* GetListDrugUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetListDrugUC.swift; sourceTree = "<group>"; };
+		2AF76ED422B0EF05007E5ADA /* ListDrugRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDrugRepos.swift; sourceTree = "<group>"; };
+		2AF76ED622B0EF13007E5ADA /* ListDrugReposImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDrugReposImp.swift; sourceTree = "<group>"; };
+		3F5B098EEF07B6A6F0C7F9FE /* Pods-Ominext-MVVMTests.devdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVMTests.devdebug.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests.devdebug.xcconfig"; sourceTree = "<group>"; };
+		4919138D0C7BFF4A42A35CB6 /* Pods_Ominext_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ominext_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		492A91CF1E302CF60A080237 /* Pods-Ominext-MVVM.devrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVM.devrelease.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM.devrelease.xcconfig"; sourceTree = "<group>"; };
+		532AB1CC92A44AFD01B59253 /* Pods-Ominext-MVVMTests.stagingdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVMTests.stagingdebug.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests.stagingdebug.xcconfig"; sourceTree = "<group>"; };
+		5E1C4238F32C909872DD4928 /* Pods-Ominext-MVVM.stagingdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVM.stagingdebug.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM.stagingdebug.xcconfig"; sourceTree = "<group>"; };
+		90258FE0F07DF0A66E1D0CB9 /* Pods-Ominext-MVVM.devdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVM.devdebug.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM.devdebug.xcconfig"; sourceTree = "<group>"; };
+		903509B39ECD480B9CB311D6 /* Pods-Ominext-MVVMTests.product.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ominext-MVVMTests.product.xcconfig"; path = "Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests.product.xcconfig"; sourceTree = "<group>"; };
+		F85549E964A71D891E48ACAF /* Pods_Ominext_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ominext_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85472C6EEF60A3D6B82C2AD /* Pods_Ominext_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +178,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1658B9BBD5408F8E62CD55F /* Pods_Ominext_MVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07861E18A81E45C59EBB3DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85549E964A71D891E48ACAF /* Pods_Ominext_MVVM.framework */,
+				4919138D0C7BFF4A42A35CB6 /* Pods_Ominext_MVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A1236CA22A7BD48001BFDC8 = {
 			isa = PBXGroup;
 			children = (
 				2A1236D522A7BD48001BFDC8 /* Ominext-MVVM */,
 				2A1236EA22A7BD49001BFDC8 /* Ominext-MVVMTests */,
 				2A1236D422A7BD48001BFDC8 /* Products */,
+				457188AF1FA523F0D6371B84 /* Pods */,
+				07861E18A81E45C59EBB3DE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +217,15 @@
 		2A1236D522A7BD48001BFDC8 /* Ominext-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				2A1236D622A7BD48001BFDC8 /* AppDelegate.swift */,
-				2A1236D822A7BD48001BFDC8 /* ViewController.swift */,
-				2A1236DA22A7BD48001BFDC8 /* Main.storyboard */,
-				2A1236DD22A7BD49001BFDC8 /* Assets.xcassets */,
-				2A1236DF22A7BD49001BFDC8 /* LaunchScreen.storyboard */,
-				2A1236E222A7BD49001BFDC8 /* Info.plist */,
+				2A12384B22A7D0DE001BFDC8 /* Application */,
+				2A1237BD22A7C2C2001BFDC8 /* Config */,
+				2A1236F622A7BE35001BFDC8 /* Common */,
+				2A12371E22A7BE4B001BFDC8 /* Services */,
+				2A12378D22A7BE69001BFDC8 /* CustomViews */,
+				2AF76EC522B0EB87007E5ADA /* Domain */,
+				2AF76ED822B0F323007E5ADA /* Data */,
+				2A1237DB22A7CF65001BFDC8 /* MVVM */,
+				2A1237E322A7D09E001BFDC8 /* Resource */,
 			);
 			path = "Ominext-MVVM";
 			sourceTree = "<group>";
@@ -90,10 +233,412 @@
 		2A1236EA22A7BD49001BFDC8 /* Ominext-MVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				2A1236EB22A7BD49001BFDC8 /* Ominext_MVVMTests.swift */,
 				2A1236ED22A7BD49001BFDC8 /* Info.plist */,
+				2ACA13F622AFA0B00052586E /* LoginViewModelTests.swift */,
+				2AF76EAD22B09864007E5ADA /* DrugListViewModelTests.swift */,
 			);
 			path = "Ominext-MVVMTests";
+			sourceTree = "<group>";
+		};
+		2A1236F622A7BE35001BFDC8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76EBA22B0B402007E5ADA /* Queue */,
+				2A1236F722A7BE35001BFDC8 /* Color */,
+				2A1236F922A7BE35001BFDC8 /* ErrorHandler */,
+				2A1236FB22A7BE35001BFDC8 /* Extensions */,
+				2A12370622A7BE35001BFDC8 /* Notifications */,
+				2A12370822A7BE35001BFDC8 /* OrientationManager */,
+				2A12370A22A7BE35001BFDC8 /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2A1236F722A7BE35001BFDC8 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				2A1236F822A7BE35001BFDC8 /* AppColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		2A1236F922A7BE35001BFDC8 /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2A1236FA22A7BE35001BFDC8 /* ErrorHandler.swift */,
+			);
+			path = ErrorHandler;
+			sourceTree = "<group>";
+		};
+		2A1236FB22A7BE35001BFDC8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A1236FC22A7BE35001BFDC8 /* ArrayExtensions.swift */,
+				2A1236FD22A7BE35001BFDC8 /* DateExtensions.swift */,
+				2A1236FE22A7BE35001BFDC8 /* FontExtensions.swift */,
+				2A1236FF22A7BE35001BFDC8 /* NSObjectExtensions.swift */,
+				2A12370022A7BE35001BFDC8 /* StringExtensions.swift */,
+				2A12370122A7BE35001BFDC8 /* UIImageExtensions.swift */,
+				2A12370222A7BE35001BFDC8 /* UIViewExtensions.swift */,
+				2A12370322A7BE35001BFDC8 /* URLExtensions.swift */,
+				2A1237E122A7D02E001BFDC8 /* UIColorExtensions.swift */,
+				2ACA13F422AF91200052586E /* ObservableExtensions.swift */,
+				2A72E68B22AFB290007C4761 /* RealmExtensions.swift */,
+				2A72E68D22AFB43B007C4761 /* Result+Limit.swift */,
+				2AF76EAF22B0A647007E5ADA /* PHAsset+Rx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A12370622A7BE35001BFDC8 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2A12370722A7BE35001BFDC8 /* Notifications.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		2A12370822A7BE35001BFDC8 /* OrientationManager */ = {
+			isa = PBXGroup;
+			children = (
+				2A12370922A7BE35001BFDC8 /* OrientationManager.swift */,
+			);
+			path = OrientationManager;
+			sourceTree = "<group>";
+		};
+		2A12370A22A7BE35001BFDC8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A12370B22A7BE35001BFDC8 /* DateUtils.swift */,
+				2AF76EB222B0A7A4007E5ADA /* AppUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2A12371E22A7BE4B001BFDC8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76ECF22B0ECBE007E5ADA /* DI */,
+				2AF76EBD22B0B4AB007E5ADA /* AppInit */,
+				2AF76EB722B0B15B007E5ADA /* Firebase */,
+				2A12371F22A7BE4B001BFDC8 /* API */,
+				2A12375722A7BE4B001BFDC8 /* DAO */,
+				2A12375A22A7BE4B001BFDC8 /* Session */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2A12371F22A7BE4B001BFDC8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2A12372722A7BE4B001BFDC8 /* Base */,
+				2ACA13F222AF8EB20052586E /* LoginAPI.swift */,
+				2A72E67922AFA99C007C4761 /* GetListDrugAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2A12372722A7BE4B001BFDC8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2A12372822A7BE4B001BFDC8 /* API.swift */,
+				2A12372922A7BE4B001BFDC8 /* APIError.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2A12375722A7BE4B001BFDC8 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				2A72E68622AFB0F0007C4761 /* RealmDao.swift */,
+				2A72E68422AFB0CE007C4761 /* DrugsDao.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		2A12375A22A7BE4B001BFDC8 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				2A12375B22A7BE4B001BFDC8 /* Session.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		2A12378D22A7BE69001BFDC8 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				2A12379122A7BE69001BFDC8 /* OMSVGButton.swift */,
+				2A12379222A7BE69001BFDC8 /* OMSVGImageView.swift */,
+				2A12379322A7BE69001BFDC8 /* OMButton.swift */,
+				2A12379822A7BE69001BFDC8 /* OMLabel.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		2A1237BD22A7C2C2001BFDC8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2A12384C22A7D13E001BFDC8 /* Const */,
+				2A1237BE22A7C2C6001BFDC8 /* Environments */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2A1237BE22A7C2C6001BFDC8 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				2A1237BF22A7C2D8001BFDC8 /* Dev.xcconfig */,
+				2A1237C222A7C334001BFDC8 /* Product.xcconfig */,
+				2A1237C122A7C334001BFDC8 /* Staging.xcconfig */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		2A1237DB22A7CF65001BFDC8 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				2A72E68822AFB23D007C4761 /* Entity */,
+				2A1237DE22A7CF8B001BFDC8 /* Model */,
+				2A1237DC22A7CF7C001BFDC8 /* Scenes */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		2A1237DC22A7CF7C001BFDC8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA138922AA3ECF0052586E /* Base */,
+				2ACA13B722AE476B0052586E /* Login */,
+				2A72E67D22AFAB2C007C4761 /* Drugs */,
+			);
+			name = Scenes;
+			path = "Scên";
+			sourceTree = "<group>";
+		};
+		2A1237DE22A7CF8B001BFDC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA13EE22AF8D730052586E /* User.swift */,
+				2A72E67B22AFA9B2007C4761 /* Drug.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A1237E322A7D09E001BFDC8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2A12381B22A7D0AF001BFDC8 /* Assets */,
+				2A12381722A7D0AF001BFDC8 /* Font */,
+				2A1237E922A7D0AF001BFDC8 /* Image */,
+				2A1237E422A7D0AE001BFDC8 /* LaunchScreen */,
+				2A1237E722A7D0AE001BFDC8 /* Localization */,
+				2A1237EE22A7D0AF001BFDC8 /* svg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2A1237E422A7D0AE001BFDC8 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A1236DF22A7BD49001BFDC8 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		2A1237E722A7D0AE001BFDC8 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				2A1237E822A7D0AE001BFDC8 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		2A1237E922A7D0AF001BFDC8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		2A1237EE22A7D0AF001BFDC8 /* svg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = svg;
+			sourceTree = "<group>";
+		};
+		2A12381722A7D0AF001BFDC8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2A12381B22A7D0AF001BFDC8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2A1236DD22A7BD49001BFDC8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2A12384B22A7D0DE001BFDC8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2A1236D622A7BD48001BFDC8 /* AppDelegate.swift */,
+				2A1236E222A7BD49001BFDC8 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2A12384C22A7D13E001BFDC8 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				2A12384D22A7D145001BFDC8 /* Const.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		2A72E67D22AFAB2C007C4761 /* Drugs */ = {
+			isa = PBXGroup;
+			children = (
+				2A72E67E22AFAB38007C4761 /* DrugsVC.swift */,
+				2A72E68022AFAB50007C4761 /* DrugListViewModel.swift */,
+				2A72E68222AFAB59007C4761 /* DrugsVC.xib */,
+				2A36710F22B088BA00FF5F73 /* DrugCell.swift */,
+				2A36711022B088BA00FF5F73 /* DrugCell.xib */,
+			);
+			path = Drugs;
+			sourceTree = "<group>";
+		};
+		2A72E68822AFB23D007C4761 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2A72E68922AFB249007C4761 /* RlmDrugEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2ACA138922AA3ECF0052586E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2A1237DF22A7CF98001BFDC8 /* BaseVC.swift */,
+				2ACA13F022AF8E310052586E /* BaseViewModel.swift */,
+				2AF76EAB22B09486007E5ADA /* BaseNaviVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2ACA13B722AE476B0052586E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA13B822AE477B0052586E /* LoginViewModel.swift */,
+				2ACA13BA22AE47840052586E /* LoginVC.swift */,
+				2ACA13EC22AF8C210052586E /* LoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2AF76EB722B0B15B007E5ADA /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76EC122B0B66D007E5ADA /* Base */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2AF76EBA22B0B402007E5ADA /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76EBB22B0B411007E5ADA /* QueueManager.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		2AF76EBD22B0B4AB007E5ADA /* AppInit */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76EBE22B0B4B4007E5ADA /* AppInitManager.swift */,
+			);
+			path = AppInit;
+			sourceTree = "<group>";
+		};
+		2AF76EC122B0B66D007E5ADA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76EC222B0B66D007E5ADA /* FIRDatabase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2AF76EC522B0EB87007E5ADA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76EC822B0EBB2007E5ADA /* Usecase */,
+				2AF76EC622B0EBA5007E5ADA /* Repository */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2AF76EC622B0EBA5007E5ADA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76EC922B0EBE2007E5ADA /* LoginRepos.swift */,
+				2AF76ED422B0EF05007E5ADA /* ListDrugRepos.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2AF76EC822B0EBB2007E5ADA /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76ECD22B0EC44007E5ADA /* LoginUC.swift */,
+				2AF76ED222B0EEF4007E5ADA /* GetListDrugUC.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		2AF76ECF22B0ECBE007E5ADA /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76ED022B0ECC4007E5ADA /* DIContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		2AF76ED822B0F323007E5ADA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76ED922B0F34B007E5ADA /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2AF76ED922B0F34B007E5ADA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2AF76ECB22B0EBF3007E5ADA /* LoginReposImp.swift */,
+				2AF76ED622B0EF13007E5ADA /* ListDrugReposImp.swift */,
+			);
+			name = Repository;
+			path = "Repositỏy";
+			sourceTree = "<group>";
+		};
+		457188AF1FA523F0D6371B84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C4238F32C909872DD4928 /* Pods-Ominext-MVVM.stagingdebug.xcconfig */,
+				90258FE0F07DF0A66E1D0CB9 /* Pods-Ominext-MVVM.devdebug.xcconfig */,
+				492A91CF1E302CF60A080237 /* Pods-Ominext-MVVM.devrelease.xcconfig */,
+				1395CF722EED72E1EE5AEB1A /* Pods-Ominext-MVVM.stagingrelease.xcconfig */,
+				0DE5262430E4696D82B1CE4F /* Pods-Ominext-MVVM.product.xcconfig */,
+				532AB1CC92A44AFD01B59253 /* Pods-Ominext-MVVMTests.stagingdebug.xcconfig */,
+				3F5B098EEF07B6A6F0C7F9FE /* Pods-Ominext-MVVMTests.devdebug.xcconfig */,
+				08904739C74383F552A49BED /* Pods-Ominext-MVVMTests.devrelease.xcconfig */,
+				118A384DF12B09FC47BE7684 /* Pods-Ominext-MVVMTests.stagingrelease.xcconfig */,
+				903509B39ECD480B9CB311D6 /* Pods-Ominext-MVVMTests.product.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +648,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A1236F022A7BD49001BFDC8 /* Build configuration list for PBXNativeTarget "Ominext-MVVM" */;
 			buildPhases = (
+				99AAB1069AC97D50568068EC /* [CP] Check Pods Manifest.lock */,
 				2A1236CF22A7BD48001BFDC8 /* Sources */,
 				2A1236D022A7BD48001BFDC8 /* Frameworks */,
 				2A1236D122A7BD48001BFDC8 /* Resources */,
+				B90D83F4BD106DFE2060F380 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +667,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A1236F322A7BD49001BFDC8 /* Build configuration list for PBXNativeTarget "Ominext-MVVMTests" */;
 			buildPhases = (
+				D887394A91735922815045FA /* [CP] Check Pods Manifest.lock */,
 				2A1236E322A7BD49001BFDC8 /* Sources */,
 				2A1236E422A7BD49001BFDC8 /* Frameworks */,
 				2A1236E522A7BD49001BFDC8 /* Resources */,
+				E053D217FAE556CFE54976F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,9 +726,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A36711222B088BA00FF5F73 /* DrugCell.xib in Resources */,
+				2ACA13ED22AF8C210052586E /* LoginVC.xib in Resources */,
+				2A12381E22A7D0AF001BFDC8 /* Localizable.strings in Resources */,
+				2A72E68322AFAB59007C4761 /* DrugsVC.xib in Resources */,
 				2A1236E122A7BD49001BFDC8 /* LaunchScreen.storyboard in Resources */,
 				2A1236DE22A7BD49001BFDC8 /* Assets.xcassets in Resources */,
-				2A1236DC22A7BD48001BFDC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +744,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99AAB1069AC97D50568068EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ominext-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90D83F4BD106DFE2060F380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ominext-MVVM/Pods-Ominext-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D887394A91735922815045FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ominext-MVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E053D217FAE556CFE54976F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ominext-MVVMTests/Pods-Ominext-MVVMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A1236CF22A7BD48001BFDC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A1236D922A7BD48001BFDC8 /* ViewController.swift in Sources */,
+				2ACA13BB22AE47840052586E /* LoginVC.swift in Sources */,
+				2AF76ED522B0EF05007E5ADA /* ListDrugRepos.swift in Sources */,
+				2A12371622A7BE35001BFDC8 /* UIViewExtensions.swift in Sources */,
+				2ACA13F322AF8EB20052586E /* LoginAPI.swift in Sources */,
+				2A12371722A7BE35001BFDC8 /* URLExtensions.swift in Sources */,
+				2ACA13EF22AF8D730052586E /* User.swift in Sources */,
+				2AF76ECE22B0EC44007E5ADA /* LoginUC.swift in Sources */,
+				2A12371222A7BE35001BFDC8 /* FontExtensions.swift in Sources */,
+				2AF76ECC22B0EBF3007E5ADA /* LoginReposImp.swift in Sources */,
+				2A1237E022A7CF98001BFDC8 /* BaseVC.swift in Sources */,
+				2A1237B122A7BE69001BFDC8 /* OMLabel.swift in Sources */,
+				2ACA13B922AE477B0052586E /* LoginViewModel.swift in Sources */,
+				2A72E67F22AFAB38007C4761 /* DrugsVC.swift in Sources */,
+				2A12371022A7BE35001BFDC8 /* ArrayExtensions.swift in Sources */,
+				2A1237AC22A7BE69001BFDC8 /* OMSVGImageView.swift in Sources */,
+				2A72E68C22AFB290007C4761 /* RealmExtensions.swift in Sources */,
+				2AF76EB522B0A7A4007E5ADA /* AppUtils.swift in Sources */,
+				2AF76ED322B0EEF4007E5ADA /* GetListDrugUC.swift in Sources */,
+				2A12371422A7BE35001BFDC8 /* StringExtensions.swift in Sources */,
+				2A12371322A7BE35001BFDC8 /* NSObjectExtensions.swift in Sources */,
+				2A72E68E22AFB43B007C4761 /* Result+Limit.swift in Sources */,
+				2AF76ED722B0EF13007E5ADA /* ListDrugReposImp.swift in Sources */,
+				2AF76EC322B0B66D007E5ADA /* FIRDatabase.swift in Sources */,
+				2A12371A22A7BE35001BFDC8 /* OrientationManager.swift in Sources */,
+				2ACA13F522AF91200052586E /* ObservableExtensions.swift in Sources */,
+				2AF76ED122B0ECC4007E5ADA /* DIContainer.swift in Sources */,
+				2A72E68722AFB0F0007C4761 /* RealmDao.swift in Sources */,
+				2A1237E222A7D02E001BFDC8 /* UIColorExtensions.swift in Sources */,
+				2AF76EB022B0A647007E5ADA /* PHAsset+Rx.swift in Sources */,
+				2A12371B22A7BE35001BFDC8 /* DateUtils.swift in Sources */,
+				2A36711122B088BA00FF5F73 /* DrugCell.swift in Sources */,
+				2AF76EAC22B09486007E5ADA /* BaseNaviVC.swift in Sources */,
+				2A12371922A7BE35001BFDC8 /* Notifications.swift in Sources */,
+				2A12370F22A7BE35001BFDC8 /* ErrorHandler.swift in Sources */,
+				2A72E68A22AFB249007C4761 /* RlmDrugEntity.swift in Sources */,
+				2A1237AD22A7BE69001BFDC8 /* OMButton.swift in Sources */,
+				2ACA13F122AF8E310052586E /* BaseViewModel.swift in Sources */,
+				2A12376222A7BE4B001BFDC8 /* API.swift in Sources */,
 				2A1236D722A7BD48001BFDC8 /* AppDelegate.swift in Sources */,
+				2A12371522A7BE35001BFDC8 /* UIImageExtensions.swift in Sources */,
+				2A12370E22A7BE35001BFDC8 /* AppColor.swift in Sources */,
+				2A12371122A7BE35001BFDC8 /* DateExtensions.swift in Sources */,
+				2A12378C22A7BE4B001BFDC8 /* Session.swift in Sources */,
+				2AF76EBC22B0B411007E5ADA /* QueueManager.swift in Sources */,
+				2A12376322A7BE4B001BFDC8 /* APIError.swift in Sources */,
+				2A72E67C22AFA9B2007C4761 /* Drug.swift in Sources */,
+				2A72E68122AFAB50007C4761 /* DrugListViewModel.swift in Sources */,
+				2A12384E22A7D145001BFDC8 /* Const.swift in Sources */,
+				2A1237AB22A7BE69001BFDC8 /* OMSVGButton.swift in Sources */,
+				2A72E68522AFB0CE007C4761 /* DrugsDao.swift in Sources */,
+				2A72E67A22AFA99C007C4761 /* GetListDrugAPI.swift in Sources */,
+				2AF76ECA22B0EBE2007E5ADA /* LoginRepos.swift in Sources */,
+				2AF76EBF22B0B4B4007E5ADA /* AppInitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +890,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A1236EC22A7BD49001BFDC8 /* Ominext_MVVMTests.swift in Sources */,
+				2AF76EAE22B09864007E5ADA /* DrugListViewModelTests.swift in Sources */,
+				2ACA13F722AFA0B00052586E /* LoginViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +906,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2A1236DA22A7BD48001BFDC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A1236DB22A7BD48001BFDC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2A1236DF22A7BD49001BFDC8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -240,8 +917,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2A1236EE22A7BD49001BFDC8 /* Debug */ = {
+		2A1237C922A7C391001BFDC8 /* StagingDebug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1237C122A7C334001BFDC8 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -299,10 +977,49 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = StagingDebug;
 		};
-		2A1236EF22A7BD49001BFDC8 /* Release */ = {
+		2A1237CA22A7C391001BFDC8 /* StagingDebug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1C4238F32C909872DD4928 /* Pods-Ominext-MVVM.stagingdebug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ominext-MVVM/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = StagingDebug;
+		};
+		2A1237CB22A7C391001BFDC8 /* StagingDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532AB1CC92A44AFD01B59253 /* Pods-Ominext-MVVMTests.stagingdebug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ominext-MVVMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ominext-MVVM.app/Ominext-MVVM";
+			};
+			name = StagingDebug;
+		};
+		2A1237CF22A7C4BD001BFDC8 /* StagingRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1237C122A7C334001BFDC8 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -354,14 +1071,15 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = StagingRelease;
 		};
-		2A1236F122A7BD49001BFDC8 /* Debug */ = {
+		2A1237D022A7C4BD001BFDC8 /* StagingRelease */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1395CF722EED72E1EE5AEB1A /* Pods-Ominext-MVVM.stagingrelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Ominext-MVVM/Info.plist";
+				INFOPLIST_FILE = "Ominext-MVVM/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,31 +1087,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Debug;
+			name = StagingRelease;
 		};
-		2A1236F222A7BD49001BFDC8 /* Release */ = {
+		2A1237D122A7C4BD001BFDC8 /* StagingRelease */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118A384DF12B09FC47BE7684 /* Pods-Ominext-MVVMTests.stagingrelease.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Ominext-MVVM/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVM";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2A1236F422A7BD49001BFDC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Ominext-MVVMTests/Info.plist";
@@ -408,12 +1109,92 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ominext-MVVM.app/Ominext-MVVM";
 			};
-			name = Debug;
+			name = StagingRelease;
 		};
-		2A1236F522A7BD49001BFDC8 /* Release */ = {
+		2A1237D222A7C4C7001BFDC8 /* DevDebug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1237BF22A7C2D8001BFDC8 /* Dev.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DevDebug;
+		};
+		2A1237D322A7C4C7001BFDC8 /* DevDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90258FE0F07DF0A66E1D0CB9 /* Pods-Ominext-MVVM.devdebug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ominext-MVVM/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = DevDebug;
+		};
+		2A1237D422A7C4C7001BFDC8 /* DevDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5B098EEF07B6A6F0C7F9FE /* Pods-Ominext-MVVMTests.devdebug.xcconfig */;
+			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Ominext-MVVMTests/Info.plist";
@@ -428,7 +1209,195 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ominext-MVVM.app/Ominext-MVVM";
 			};
-			name = Release;
+			name = DevDebug;
+		};
+		2A1237D522A7C4CE001BFDC8 /* DevRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1237BF22A7C2D8001BFDC8 /* Dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = DevRelease;
+		};
+		2A1237D622A7C4CE001BFDC8 /* DevRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492A91CF1E302CF60A080237 /* Pods-Ominext-MVVM.devrelease.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ominext-MVVM/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = DevRelease;
+		};
+		2A1237D722A7C4CE001BFDC8 /* DevRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08904739C74383F552A49BED /* Pods-Ominext-MVVMTests.devrelease.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ominext-MVVMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ominext-MVVM.app/Ominext-MVVM";
+			};
+			name = DevRelease;
+		};
+		2A1237D822A7C506001BFDC8 /* Product */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1237C222A7C334001BFDC8 /* Product.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Product;
+		};
+		2A1237D922A7C506001BFDC8 /* Product */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE5262430E4696D82B1CE4F /* Pods-Ominext-MVVM.product.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ominext-MVVM/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Product;
+		};
+		2A1237DA22A7C506001BFDC8 /* Product */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903509B39ECD480B9CB311D6 /* Pods-Ominext-MVVMTests.product.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ominext-MVVMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ominext.Ominext-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ominext-MVVM.app/Ominext-MVVM";
+			};
+			name = Product;
 		};
 /* End XCBuildConfiguration section */
 
@@ -436,29 +1405,38 @@
 		2A1236CE22A7BD48001BFDC8 /* Build configuration list for PBXProject "Ominext-MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A1236EE22A7BD49001BFDC8 /* Debug */,
-				2A1236EF22A7BD49001BFDC8 /* Release */,
+				2A1237C922A7C391001BFDC8 /* StagingDebug */,
+				2A1237D222A7C4C7001BFDC8 /* DevDebug */,
+				2A1237D522A7C4CE001BFDC8 /* DevRelease */,
+				2A1237CF22A7C4BD001BFDC8 /* StagingRelease */,
+				2A1237D822A7C506001BFDC8 /* Product */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = StagingDebug;
 		};
 		2A1236F022A7BD49001BFDC8 /* Build configuration list for PBXNativeTarget "Ominext-MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A1236F122A7BD49001BFDC8 /* Debug */,
-				2A1236F222A7BD49001BFDC8 /* Release */,
+				2A1237CA22A7C391001BFDC8 /* StagingDebug */,
+				2A1237D322A7C4C7001BFDC8 /* DevDebug */,
+				2A1237D622A7C4CE001BFDC8 /* DevRelease */,
+				2A1237D022A7C4BD001BFDC8 /* StagingRelease */,
+				2A1237D922A7C506001BFDC8 /* Product */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = StagingDebug;
 		};
 		2A1236F322A7BD49001BFDC8 /* Build configuration list for PBXNativeTarget "Ominext-MVVMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A1236F422A7BD49001BFDC8 /* Debug */,
-				2A1236F522A7BD49001BFDC8 /* Release */,
+				2A1237CB22A7C391001BFDC8 /* StagingDebug */,
+				2A1237D422A7C4C7001BFDC8 /* DevDebug */,
+				2A1237D722A7C4CE001BFDC8 /* DevRelease */,
+				2A1237D122A7C4BD001BFDC8 /* StagingRelease */,
+				2A1237DA22A7C506001BFDC8 /* Product */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = StagingDebug;
 		};
 /* End XCConfigurationList section */
 	};
